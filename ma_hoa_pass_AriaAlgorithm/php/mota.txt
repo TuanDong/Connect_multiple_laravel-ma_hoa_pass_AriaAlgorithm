@@ -1,0 +1,2 @@
+check int php apache 32bit hay 64 bit lệnh check(echo PHP_INT_SIZE, ...)
+chỉ chạy đúng trên apache 64 bit (may server) local xampp 64bit hoac wamp 64

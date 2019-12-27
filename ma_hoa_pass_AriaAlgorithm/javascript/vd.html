@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="bridge.js"></script>
+    <script src="fileScriptvd.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+	<script>
+	/*function getMoviesFromApiAsync() {
+	console.log("hello");
+	  return fetch('http://amnote.com.vn/feed/?lang=vi',{
+	  headers: {
+			Accept: 'application/rss+xml',
+			'Content-Type': 'application/rss+xml',
+		  }
+	  })
+		.then((response) => {
+			console.log(response);
+		});
+	}
+	
+	getMoviesFromApiAsync(); */
+	</script>
+  </body>
+  <script type="text/javascript">
+	/*$('#table1 > thead > tr > th').each(function(){
+		$(this).addClass("dfd");
+	});
+	console.log($('#table1 > thead > tr > th:eq(0)'));*/
+    /*var a = new AriaAlgorithm();
+    a.constructor(); */
+     var b = new AriaProvider();
+     var a = '562002A078F874CA39D9EC8F7B7CA59227BF1E394E81FBF03AC343F5068780C5';
+    // if (a.length > 16) {
+    //   temp = a.substring(0,16);
+    //   temp1 = a.substring(16,a.length);
+    // }else{
+    //   temp = a;
+    //   temp1 = '';
+    // }
+    /*var pass = '';
+    var cout = a.length;
+    for (var i = 0; i < a.length; i+=16) {
+      if (cout >16) {
+        temp = a.substring(i,16);
+        cout -=16;
+      }else{
+        temp = a.substring(i,a.length);
+      }
+      console.log(temp);
+      pass += b.EncryptToString(temp);
+    }  */
+    console.log(b.EncryptToString('123456dong123456dong'));
+    console.log(b.DecryptFromString(a));
+    
+  </script>
+</html>
